@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E3040633-F9DD-4D5C-8C1A-992DEE5CE792}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>_0325_2</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0311_1\0311_1.csproj" />
+    <None Include="0311_1\App.config" />
+    <None Include="0311_1\bin\Debug\0311_1.exe.config" />
+    <None Include="0311_1\obj\Debug\0311_1.csproj.AssemblyReference.cache" />
+    <None Include="0311_1\obj\Debug\0311_1.csproj.CoreCompileInputs.cache" />
+    <None Include="0311_1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="0311_2\0311_2.csproj" />
+    <None Include="0311_2\App.config" />
+    <None Include="0311_2\obj\Debug\0311_2.csproj.AssemblyReference.cache" />
+    <None Include="0311_2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="0311_실습\0311_실습.csproj" />
+    <None Include="0311_실습\App.config" />
+    <None Include="0311_실습\bin\Debug\0311_실습.exe.config" />
+    <None Include="0311_실습\obj\Debug\0311_실습.csproj.AssemblyReference.cache" />
+    <None Include="0311_실습\obj\Debug\0311_실습.csproj.CoreCompileInputs.cache" />
+    <None Include="0311_실습\obj\Debug\0311_실습.csproj.GenerateResource.cache" />
+    <None Include="0311_실습\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="0311_실습\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="0311_실습\Properties\Settings.settings" />
+    <None Include="0325_1\0325_1.csproj" />
+    <None Include="0325_1\App.config" />
+    <None Include="0325_1\bin\Debug\0325_1.exe.config" />
+    <None Include="0325_1\obj\Debug\0325_1.csproj.AssemblyReference.cache" />
+    <None Include="0325_1\obj\Debug\0325_1.csproj.CoreCompileInputs.cache" />
+    <None Include="0325_1\obj\Debug\0325_1.csproj.GenerateResource.cache" />
+    <None Include="0325_1\obj\Debug\0325_1.csproj.Up2Date" />
+    <None Include="0325_1\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="0325_1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="0325_1\packages.config" />
+    <None Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\.signature.p7s" />
+    <None Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\LICENSE" />
+    <None Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\Nakov.TurtleGraphics.2.0.2.1.nupkg" />
+    <None Include="0325_1\Properties\Settings.settings" />
+    <None Include="실습20311\App.config" />
+    <None Include="실습20311\bin\Debug\실습20311.exe.config" />
+    <None Include="실습20311\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="실습20311\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="실습20311\obj\Debug\실습20311.csproj.AssemblyReference.cache" />
+    <None Include="실습20311\obj\Debug\실습20311.csproj.CoreCompileInputs.cache" />
+    <None Include="실습20311\obj\Debug\실습20311.csproj.GenerateResource.cache" />
+    <None Include="실습20311\Properties\Settings.settings" />
+    <None Include="실습20311\실습20311.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0311_1\0311_1.sln" />
+    <Content Include="0311_1\bin\Debug\0311_1.exe" />
+    <Content Include="0311_1\bin\Debug\0311_1.pdb" />
+    <Content Include="0311_1\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="0311_1\obj\Debug\0311_1.csproj.FileListAbsolute.txt" />
+    <Content Include="0311_1\obj\Debug\0311_1.exe" />
+    <Content Include="0311_1\obj\Debug\0311_1.pdb" />
+    <Content Include="0311_1\Program.cs" />
+    <Content Include="0311_1\Properties\AssemblyInfo.cs" />
+    <Content Include="0311_2\0311_2.sln" />
+    <Content Include="0311_2\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="0311_2\Program.cs" />
+    <Content Include="0311_2\Properties\AssemblyInfo.cs" />
+    <Content Include="0311_실습\0311_실습.sln" />
+    <Content Include="0311_실습\bin\Debug\0311_실습.exe" />
+    <Content Include="0311_실습\bin\Debug\0311_실습.pdb" />
+    <Content Include="0311_실습\Form1.cs" />
+    <Content Include="0311_실습\Form1.Designer.cs" />
+    <Content Include="0311_실습\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="0311_실습\obj\Debug\0311_실습.csproj.FileListAbsolute.txt" />
+    <Content Include="0311_실습\obj\Debug\0311_실습.exe" />
+    <Content Include="0311_실습\obj\Debug\0311_실습.pdb" />
+    <Content Include="0311_실습\Program.cs" />
+    <Content Include="0311_실습\Properties\AssemblyInfo.cs" />
+    <Content Include="0311_실습\Properties\Resources.Designer.cs" />
+    <Content Include="0311_실습\Properties\Settings.Designer.cs" />
+    <Content Include="0325_1\0325_1.sln" />
+    <Content Include="0325_1\bin\Debug\0325_1.exe" />
+    <Content Include="0325_1\bin\Debug\0325_1.pdb" />
+    <Content Include="0325_1\bin\Debug\Nakov.TurtleGraphics.dll" />
+    <Content Include="0325_1\Form1.cs" />
+    <Content Include="0325_1\Form1.Designer.cs" />
+    <Content Include="0325_1\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="0325_1\obj\Debug\0325_1.csproj.FileListAbsolute.txt" />
+    <Content Include="0325_1\obj\Debug\0325_1.exe" />
+    <Content Include="0325_1\obj\Debug\0325_1.pdb" />
+    <Content Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\lib\net35\Nakov.TurtleGraphics.dll" />
+    <Content Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\lib\net5.0-windows7.0\Nakov.TurtleGraphics.dll" />
+    <Content Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\lib\netcoreapp3.1\Nakov.TurtleGraphics.dll" />
+    <Content Include="0325_1\packages\Nakov.TurtleGraphics.2.0.2.1\Nakov.TurtleGraphics-logo.png" />
+    <Content Include="0325_1\Program.cs" />
+    <Content Include="0325_1\Properties\AssemblyInfo.cs" />
+    <Content Include="0325_1\Properties\Resources.Designer.cs" />
+    <Content Include="0325_1\Properties\Settings.Designer.cs" />
+    <Content Include="실습20311\bin\Debug\실습20311.exe" />
+    <Content Include="실습20311\bin\Debug\실습20311.pdb" />
+    <Content Include="실습20311\Form1.cs" />
+    <Content Include="실습20311\Form1.Designer.cs" />
+    <Content Include="실습20311\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Content Include="실습20311\obj\Debug\실습20311.csproj.FileListAbsolute.txt" />
+    <Content Include="실습20311\obj\Debug\실습20311.exe" />
+    <Content Include="실습20311\obj\Debug\실습20311.pdb" />
+    <Content Include="실습20311\Program.cs" />
+    <Content Include="실습20311\Properties\AssemblyInfo.cs" />
+    <Content Include="실습20311\Properties\Resources.Designer.cs" />
+    <Content Include="실습20311\Properties\Settings.Designer.cs" />
+    <Content Include="실습20311\실습20311.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="0311_실습\Form1.resx" />
+    <EmbeddedResource Include="0311_실습\obj\Debug\_0311_실습.Form1.resources" />
+    <EmbeddedResource Include="0311_실습\obj\Debug\_0311_실습.Properties.Resources.resources" />
+    <EmbeddedResource Include="0311_실습\Properties\Resources.resx" />
+    <EmbeddedResource Include="0325_1\Form1.resx" />
+    <EmbeddedResource Include="0325_1\obj\Debug\_0325_1.Form1.resources" />
+    <EmbeddedResource Include="0325_1\obj\Debug\_0325_1.Properties.Resources.resources" />
+    <EmbeddedResource Include="0325_1\Properties\Resources.resx" />
+    <EmbeddedResource Include="실습20311\Form1.resx" />
+    <EmbeddedResource Include="실습20311\obj\Debug\실습20311.Form1.resources" />
+    <EmbeddedResource Include="실습20311\obj\Debug\실습20311.Properties.Resources.resources" />
+    <EmbeddedResource Include="실습20311\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\0325_2\v17\" />
+    <Folder Include="0311_1\bin\Release\" />
+    <Folder Include="0311_1\obj\Debug\TempPE\" />
+    <Folder Include="0311_2\bin\Debug\" />
+    <Folder Include="0311_2\bin\Release\" />
+    <Folder Include="0311_2\obj\Debug\TempPE\" />
+    <Folder Include="0311_실습\bin\Release\" />
+    <Folder Include="0311_실습\obj\Debug\TempPE\" />
+    <Folder Include="0325_1\bin\Release\" />
+    <Folder Include="0325_1\obj\Debug\TempPE\" />
+    <Folder Include="My Project\" />
+    <Folder Include="실습20311\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
