@@ -24,14 +24,24 @@ namespace _0415_7
             if (ofd.ShowDialog() == DialogResult.Cancel)
                 return;
             pb_image.Image = Bitmap.FromFile(ofd.FileName);
-            Image img = Bitmap.FromFile(ofd.FileName);
-            this.ClientSize = img.Size;
+            this.ClientSize = pb_image.Size;
         }
 
         private void 닫기ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("프로그램을 종료합니다.");
             this.Close();
+        }
+
+        private void 확대하기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string str = Microsoft.VisualBasic.Interaction.InputBox("확대 배율 입력");
+            
+        }
+
+        private void 축소하기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string str = Microsoft.VisualBasic.Interaction.InputBox("축소 배율 입력");
         }
     }
 }
