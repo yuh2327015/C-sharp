@@ -1,0 +1,90 @@
+01 다음 빈 칸을 채우시오.
+① (Linq)는 컬렉션 형태의 데이터(집합)를 쉽게 다루고자, SQL을 본따 만든 구문입니다.
+② Linq의 (where) 구문은 조건을 지정할 때 사용합니다.
+③ Linq의 (orderby) 구문은 정렬을 해줍니다.
+
+02 다음 문장이 맞다면 O, 틀리다면 X 하시오.
+① 모든 Linq 쿼리는 from, in, select 키워드를 포함한다. - X
+② orderby 구문의 정렬 방향(ascending 또는 descending)을 지정하지 않으면, 자동으로 descending(내림차순)이 지정된다. - O
+
+03 다음과 같은 코드를 Linq 코드로 변경하시오.
+List<int> input = new List<int>() {1,2,3,4,5,6,7,8,9,10};
+List<int> output = new List<int>();
+
+1)
+output = input.Where(item => item < 4).ToList();
+
+2)
+output = input.Where(item => item % 4 == 1).ToList();
+
+3)
+output = input.Where(item => item % 4 == 1).ToList();
+output.Sort();
+
+4)
+output = input.Where(item => item % 4 == 1).ToList();
+output.Sort();
+output.Reverse();
+
+
+01 다음 빈 칸을 채우시오.
+① (Linq)는 컬렉션 형태의 데이터(집합)를 쉽게 다루고자, SQL을 본따 만든 구문입니다.
+② Linq의 (where) 구문은 조건을 지정할 때 사용합니다.
+③ Linq의 (orderby) 구문은 정렬을 해줍니다.
+
+02 다음 문장이 맞다면 O, 틀리다면 X 하시오.
+① 모든 Linq 쿼리는 from, in, select 키워드를 포함한다. - X
+② orderby 구문의 정렬 방향(ascending 또는 descending)을 지정하지 않으면, 자동으로 descending(내림차순)이 지정된다. - O
+
+03 다음과 같은 코드를 Linq 코드로 변경하시오.
+
+csharp
+Copy code
+List<int> input = new List<int>() {1,2,3,4,5,6,7,8,9,10};
+List<int> output = new List<int>();
+
+1)
+output = input.Where(item => item < 4).ToList();
+
+2)
+output = input.Where(item => item % 4 == 1).ToList();
+
+3)
+output = input.Where(item => item % 4 == 1).ToList();
+output.Sort();
+
+4)
+output = input.Where(item => item % 4 == 1).ToList();
+output.Sort();
+output.Reverse();
+
+
+04 ①~③과 같은 리스트가 있을 때, 코드들을 Linq로 변환하시오.
+
+class Program
+{
+    class Product
+    {
+        public string Name { get; set; }
+        public int Price { get; set; }
+        public override string ToString()
+        {
+            return Name + " : " + Price + "원";
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        List<Product> products = new List<Product>()
+        {
+            new Product() { Name = "고구마", Price = 1500 },
+            new Product() { Name = "사과", Price = 2400 },
+            new Product() { Name = "바나나", Price = 1000 },
+            new Product() { Name = "배", Price = 3000 }
+        };
+        
+        var output1 = products.OrderBy(item => item.Name);
+        var output2 = products.Where(item => item.Price < 2000).OrderBy(item => item.Price);
+        var output3 = products.Where(item => item.Price < 2000).OrderBy(item => item.Price).Reverse();
+    }
+}
