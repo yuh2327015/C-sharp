@@ -1,0 +1,49 @@
+﻿<Window x:Class="_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <UniformGrid  Rows="6" Columns="7">
+        <Button Margin="5" Height="60" Width="60" Content="Sun" Background="Red"/>
+        <Button Margin="5" Height="60" Width="60" Content="Mon" Background="Orange"/>
+        <Button Margin="5" Height="60" Width="60" Content="Tue" Background="Yellow"/>
+        <Button Margin="5" Height="60" Width="60" Content="Wed" Background="Green"/>
+        <Button Margin="5" Height="60" Width="60" Content="Thu" Background="SkyBlue"/>
+        <Button Margin="5" Height="60" Width="60" Content="Fri" Background="DarkBlue"/>
+        <Button Margin="5" Height="60" Width="60" Content="Sat" Background="Purple"/>
+        <Button Margin="5" Height="60" Width="60" Content="1" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="2" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="3" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="4" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="5" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="6" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="7" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="8" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="9" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="10" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="11" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="12" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="13" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="14" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="15" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="16" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="17" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="18" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="19" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="20" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="21" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="22" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="23" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="24" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="25" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="26" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="27" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="28" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="29" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="30" Background="Gray"/>
+        <Button Margin="5" Height="60" Width="60" Content="31" Background="Gray"/>
+    </UniformGrid>
+</Window>

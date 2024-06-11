@@ -1,0 +1,14 @@
+﻿<Window x:Class="_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Canvas>
+        <Button Canvas.Bottom="50" Canvas.Left="60" Width="100" Height="50" Background="AliceBlue" Content="Image Name"/>
+        <Button Canvas.Bottom="50" Canvas.Right="60" Width="100" Height="50" Background="Beige" Content="Load"/>
+        <Button Canvas.Top="60" Canvas.Right="70" Width="250" Height="180" Background="LightCoral" Content="Loaded Image"/>
+    </Canvas>
+</Window>
