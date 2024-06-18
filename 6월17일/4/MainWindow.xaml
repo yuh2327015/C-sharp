@@ -1,0 +1,38 @@
+﻿<Window x:Class="_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="300">
+    <StackPanel>
+        <Label HorizontalAlignment="Center" FontSize="20" Content="회원가입"/>
+        <Border Margin="10" Height="100" Background="Beige"
+                BorderBrush="Blue" BorderThickness="2">
+            <StackPanel x:Name="spAgree" Margin="10">
+                <CheckBox Margin="10,10,0,0" IsChecked="True">
+                    약관동의</CheckBox>
+                <CheckBox Margin="10,10,0,0" IsChecked="False">
+                    개인정보 수집 및 활용 동의(선택)</CheckBox>
+                <CheckBox Margin="10,10,0,0" IsChecked="{x:Null}">
+                    SNS 수신 동의</CheckBox>
+            </StackPanel>
+        </Border>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <StackPanel x:Name="spAge" Margin="30,0,0,0" Width="100">
+                <RadioButton IsChecked="True" Content="10대"/>
+                <RadioButton IsChecked="False" Content="20대"/>
+                <RadioButton IsChecked="{x:Null}" Content="30대"/>
+                <RadioButton Content="40대"/>
+            </StackPanel>
+            <StackPanel x:Name="spJob" Margin="30,0,0,0" Width="100">
+                <RadioButton GroupName="grpSex" x:Name="man" Content="남성"/>
+                <RadioButton GroupName="grpSex" x:Name="woman" Content="여성"/>
+                <RadioButton GroupName="grpJob" x:Name="student" Margin="0,10,0,0" Content="학생"/>
+                <RadioButton GroupName="grpJob" x:Name="salaryman" Content="회사원"/>
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="btnJoin" Margin="10" Width="100" Height="40" Content="회언가입" Click="btnJoin_Click"/>
+    </StackPanel>
+</Window>

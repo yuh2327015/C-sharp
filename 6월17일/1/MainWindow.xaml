@@ -1,0 +1,33 @@
+﻿<Window x:Class="_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <StackPanel>
+        <Label HorizontalAlignment="Center" Height="50" FontSize="30" FontWeight="UltraBold">
+            <Label.Content>Salvation</Label.Content>
+        </Label>
+        <Border HorizontalAlignment="Stretch" BorderBrush="Blue" BorderThickness="2"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="20">
+            For<Bold> God </Bold> so loved the world <LineBreak/>
+            he gave his one and aonly son, <LineBreak/>
+            <Span FontSize="25" FontFamily="Times New Roman"> that whoever
+                but have <Italic> eternal life</Italic></Span>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Right" FontSize="20" Foreground="Red">
+            <TextBlock.Text>
+                &lt; John 3:16 &gt;
+            </TextBlock.Text>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="10" FontSize="20">
+            <Hyperlink x:Name="hlink" Foreground="Blue"
+                       RequestNavigate="hlink_RequestNavigate"
+                       NavigateUri="http://www.godpia.com">
+            <Bold> Click for Bible </Bold>
+            </Hyperlink>
+        </TextBlock>
+    </StackPanel>
+</Window>
